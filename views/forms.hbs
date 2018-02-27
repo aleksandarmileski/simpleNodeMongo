@@ -1,0 +1,57 @@
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+<form action="/insert" method="post"
+      style="background-color: lightgreen;
+      max-width: 50%;
+      padding: 10px">
+    <h3>Create user data</h3>
+    <div class="input">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title">
+    </div>
+    <div class="input">
+        <label for="content">Content</label>
+        <input type="text" name="content" id="content">
+    </div>
+    <div class="input">
+        <label for="author">Author</label>
+        <input type="text" name="author" id="author">
+    </div>
+    <button type="submit">Insert</button>
+</form>
+<br>
+<form action="/update" method="post"
+      style="background-color: lightgoldenrodyellow;
+      max-width: 50%;
+      padding: 10px">
+    <h3>Update user data</h3>
+    <div class="input">
+        <label for="id">ID</label>
+        <input type="text" name="id" id="id">
+    </div>
+    <div class="input">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title">
+    </div>
+    <div class="input">
+        <label for="content">Content</label>
+        <input type="text" name="content" id="content">
+    </div>
+    <div class="input">
+        <label for="author">Author</label>
+        <input type="text" name="author" id="author">
+    </div>
+    <button type="submit">Update</button>
+</form>
+<br>
+<form action="/delete" method="post"
+      style="background-color: lightcoral;
+      max-width: 50%;
+      padding: 10px">
+    <h3>Delete user data</h3>
+    <div class="input">
+        <label for="id">ID</label>
+        <input type="text" name="id" id="id">
+    </div>
+    <button type="submit">Delete</button>
+</form>
